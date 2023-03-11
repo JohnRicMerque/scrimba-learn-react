@@ -1,0 +1,49 @@
+.logo {
+    width: 100%;
+    padding: 0.5rem;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(1) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
+  nav {
+    width: 550px;
+    height: 91px;
+    padding: 1rem;
+    font-family: 'Inter';
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+  }
+
+  nav > h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #61DAFB;
+    margin-right: auto;
+  }
+
+  nav > h4 {
+    font-size: 1rem;
+    color: #DEEBF8
+  }
