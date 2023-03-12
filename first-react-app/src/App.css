@@ -1,7 +1,31 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
 
+.App {
+  max-width: 550px;
+  height: 459px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  background-color: #282D35;
+  color: #FFFFFF;
+  padding: 2rem;
+  background-image: url("./assets/reactjs-icon 2.png");
+  background-repeat: no-repeat;
+
+  background-position: right center;
+}
+
+ul {
+  margin-top: 2rem;
+  width: 400px;
+  align-self: center;
+  line-height: 2.5rem;
+}
+
+ul > li::marker {
+  color: #61DAFB;
+}

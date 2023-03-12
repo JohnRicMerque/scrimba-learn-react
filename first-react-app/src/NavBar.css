@@ -5,10 +5,10 @@
     transition: filter 300ms;
   }
   .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
+    filter: drop-shadow(0 0 2rem #646cffaa);
   }
   .logo.react:hover {
-    filter: drop-shadow(0 0 2em #61dafbaa);
+    filter: drop-shadow(0 0 2rem #61dafbaa);
   }
   
   @keyframes logo-spin {
@@ -29,7 +29,7 @@
   nav {
     width: 550px;
     height: 91px;
-    padding: 1rem;
+    padding: 0 1.4rem 0 1rem;
     font-family: 'Inter';
     display: flex;
     align-items: center;
